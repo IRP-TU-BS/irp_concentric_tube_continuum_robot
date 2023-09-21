@@ -30,7 +30,7 @@ Welcome to the repository of the IRP's Concentric Tube Continuum Robot. This ope
 
 ## The contributors
 - Jiecong Gu
-- Heiko Donat
+- [Heiko Donat](https://hdonat.net)
 - Yazan Soliman
 
 
