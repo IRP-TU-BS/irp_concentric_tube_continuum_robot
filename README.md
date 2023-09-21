@@ -1,11 +1,10 @@
 # IRP's Concentric Tube Continuum Robot
 
-![Robot mounted in a Franka Emika Panda](https://git.rob.cs.tu-bs.de/public_repos/hdo/irp_concentric_tube_continuum_robot/-/raw/master/Documents/P5050031.JPG?inline=false)
+![Robot mounted in a Franka Emika Panda]()
 
 
 Welcome to the repository of the IRP's Concentric Tube Continuum Robot. This open hardware project contains a full-working concentric tube continuum robot focusing on easy and additive manufacturing. In this project, we focused on creating a low-cost variant of a CTCR that still offers precise position control. All non-printable parts are publicly and commercially available. Further, motors and control boards are ready-to-buy products that are easy to purchase and inexpensive. If you are looking for a modular approach with torque-sensing capabilities, take a look at the outstanding [Open Continuum Robotics Project](https://www.cs.toronto.edu/~jbk/opencontinuumrobotics/hardware/) by the Continuum Robotics Lab of the University of Toronto at Mississauga.
 
-[[_TOC_]]
 
 ## Parts List
 
