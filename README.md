@@ -1,20 +1,40 @@
-Repository for the Hardware build of the concentric_tube_continuum_robot
+# IRP's Concentric Tube Continuum Robot
+
+![Robot mounted in a Franka Emika Panda](https://git.rob.cs.tu-bs.de/public_repos/hdo/irp_concentric_tube_continuum_robot/-/raw/master/Documents/P5050031.JPG?inline=false)
 
 
-For generating tubes using the freecad macro script do the following steps:
-1- Close the start page tab befor executing the script. This is important or you will get errors!!
+Welcome to the repository of the IRP's Concentric Tube Continuum Robot. This open hardware project contains a full-working concentric tube continuum robot focusing on easy and additive manufacturing. In this project, we focused on creating a low-cost variant of a CTCR that still offers precise position control. All non-printable parts are publicly and commercially available. Further, motors and control boards are ready-to-buy products that are easy to purchase and inexpensive. If you are looking for a modular approach with torque-sensing capabilities, take a look at the outstanding [Open Continuum Robotics Project](https://www.cs.toronto.edu/~jbk/opencontinuumrobotics/hardware/) by the Continuum Robotics Lab of the University of Toronto at Mississauga.
 
-2 - Open ClassTubeGen.FCMacro in FreeCad
+[[_TOC_]]
 
-3 - To change the design parameters "length, curvature .. "
+## Parts List
 
-edit this line 
 
-tube = TubeGen(inner_radius=<radius in mm>,outer_radius=<radius in mm>,line_length=<straight line in mm>,arc_angle=<arc_angle in degree>,arc_length=<length in mm>,document_name='<model name>')
+| Part | Amount | Supplier |
+| --- | --- | --- |
+|Plain bearing bushes 16x18x7  | 12 | IGUS |
+|Plain bearing bushes 8x10x10 | 8 | IGUS |
+| Linear Guide Rail ( T form ) 1m | 1 | IGUS |
+| Carriage ( fixed bearing) | 2 | IGUS |
+| Führungswagen ( Loslager) | 2 | IGUS |
+| Trapezoidal threaded spindle TR8x1.5 1m | 1 | IGUS |
+| Flange threaded nut TR8x1.5  | 1 | IGUS |
+| Motor coupling | 6 | Mädler |
+| Stepper Motors | 6 | StepperOnline.com |
+| Circlip according to DIN 471 for 16mm shaft | 6 | Mädler |
+| Cheese-head screws in various sizes | See CAD | |
+| Clamping ring with trapezoidal thread TR8x1.5 | 4 | IGUS |
 
-example : 	tube = TubeGen(inner_radius=5,outer_radius=7,line_length=110,arc_angle=60,arc_length=60,document_name='my_tube')
-		tube.generate()
-	
 
-4 - you can excute the script as many as you want only if the document_name='<model name>' has a unique name for each model ex. 'model1' then next run 'model2' etc..
+## Getting started
+ TBD
+
+## The contributors
+- Jiecong Gu
+- Heiko Donat
+- Yazan Soliman
+
+
+## Deployment plan
+Soon,  we will publish the code to steer the robot using the Robot Operating System (ROS).
 
